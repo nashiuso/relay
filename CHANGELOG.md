@@ -47,5 +47,5 @@ The first public alpha. The API may still change.
 - Request bodies are bounded, cross origin requests are rejected by default
   and prompts are never logged.
 
-[Unreleased]: https://github.com/nashiuso/relay-rs/compare/v0.1.0-alpha...HEAD
-[0.1.0-alpha]: https://github.com/nashiuso/relay-rs/releases/tag/v0.1.0-alpha
+[Unreleased]: https://github.com/nashiuso/relay/compare/v0.1.0-alpha...HEAD
+[0.1.0-alpha]: https://github.com/nashiuso/relay/releases/tag/v0.1.0-alpha

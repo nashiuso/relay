@@ -14,7 +14,7 @@ release; there is no long term support branch yet.
 Please **do not** open a public issue for a security problem.
 
 Report it privately through GitHub's security advisory form:
-<https://github.com/nashiuso/relay-rs/security/advisories/new>. Include the
+<https://github.com/nashiuso/relay/security/advisories/new>. Include the
 version, a description of the problem and, if possible, a reproduction. You
 can expect an acknowledgement within a few days.
 

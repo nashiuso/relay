@@ -7,8 +7,8 @@ It takes about five minutes and needs no account to try: a local
 ## 1. Install Relay
 
 ```bash
-git clone https://github.com/nashiuso/relay-rs
-cd relay-rs
+git clone https://github.com/nashiuso/relay
+cd relay
 cargo install --path .
 ```
 

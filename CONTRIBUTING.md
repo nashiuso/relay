@@ -6,8 +6,8 @@ surface area, so a few conventions keep it reviewable.
 ## Getting started
 
 ```bash
-git clone https://github.com/nashiuso/relay-rs
-cd relay-rs
+git clone https://github.com/nashiuso/relay
+cd relay
 cargo test --all-features
 ```
 

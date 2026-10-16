@@ -185,6 +185,6 @@ relay serve --port 8090
 
 ## Reporting a bug
 
-Open an issue at <https://github.com/nashiuso/relay-rs/issues> with the
+Open an issue at <https://github.com/nashiuso/relay/issues> with the
 version (`relay --version`), the command you ran and the complete error
 message. Remove API keys, prompts and answers from the report.

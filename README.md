@@ -28,7 +28,7 @@ println!("{answer}");
 
 * Status: **0.1.0-alpha** — the API may still change.
 * License: MIT.
-* Repository: <https://github.com/nashiuso/relay-rs>
+* Repository: <https://github.com/nashiuso/relay>
 
 ---
 
