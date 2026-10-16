@@ -1,0 +1,22 @@
+# Build artefacts
+/target
+**/*.rs.bk
+*.pdb
+
+# Local configuration and secrets
+/config.toml
+/relay.toml
+*.local.toml
+.env
+.env.*
+
+# Editors
+.idea/
+.vscode/
+*.swp
+*~
+.DS_Store
+
+# Documentation output
+/doc/
+/site/

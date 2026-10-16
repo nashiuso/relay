@@ -1,0 +1,6 @@
+# Clippy configuration for Relay.
+#
+# Relay favours readable, boring Rust over clever abstractions, so the
+# pedantic lints that fire on idiomatic code are not enabled here. The
+# CI pipeline runs `cargo clippy -- -D warnings` with the default lint set.
+msrv = "1.85"

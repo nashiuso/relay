@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 96" width="460" height="96" role="img" aria-label="Relay — one interface. your models.">
+  <title>Relay</title>
+  <rect x="0" y="0" width="460" height="96" rx="12" fill="#020204"/>
+  <g transform="translate(56 48) scale(1.45)">
+    <path d="M 11.57 13.79 A 18 18 0 0 1 11.57 -13.79" fill="none" stroke="#49A1A8" stroke-width="4.2" stroke-linecap="round"/>
+    <path d="M -11.57 -13.79 A 18 18 0 0 0 -11.57 13.79" fill="none" stroke="#49A1A8" stroke-width="4.2" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="5.4" fill="#49A1A8"/>
+  </g>
+  <text x="104" y="47" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="600" letter-spacing="0.5" fill="#D9DBDF">relay</text>
+  <text x="106" y="72" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" letter-spacing="0.4" fill="#D9DBDF" fill-opacity="0.72">One interface. Your models.</text>
+</svg>

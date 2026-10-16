@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="1280" height="640" role="img" aria-label="Relay — one interface. your models.">
+  <title>Relay — one interface. your models.</title>
+  <rect x="0" y="0" width="1280" height="640" fill="#020204"/>
+  <g fill="none" stroke="#49A1A8" stroke-opacity="0.14" stroke-width="2">
+    <circle cx="1100" cy="120" r="150"/>
+    <circle cx="1100" cy="120" r="96"/>
+    <circle cx="180" cy="560" r="120"/>
+    <circle cx="180" cy="560" r="70"/>
+  </g>
+  <g transform="translate(640 250) scale(3.1)">
+    <path d="M 11.57 13.79 A 18 18 0 0 1 11.57 -13.79" fill="none" stroke="#49A1A8" stroke-width="4.2" stroke-linecap="round"/>
+    <path d="M -11.57 -13.79 A 18 18 0 0 0 -11.57 13.79" fill="none" stroke="#49A1A8" stroke-width="4.2" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="5.4" fill="#49A1A8"/>
+  </g>
+  <text x="640" y="410" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="104" font-weight="600" letter-spacing="1" fill="#D9DBDF">relay</text>
+  <text x="640" y="470" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="30" letter-spacing="1.4" fill="#D9DBDF" fill-opacity="0.78">One interface. Your models.</text>
+  <rect x="614" y="504" width="52" height="5" rx="2.5" fill="#49A1A8"/>
+  <text x="640" y="560" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="21" letter-spacing="0.6" fill="#D9DBDF" fill-opacity="0.5">github.com/nashiuso/relay-rs</text>
+</svg>
