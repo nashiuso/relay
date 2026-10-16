@@ -1,0 +1,34 @@
+[package]
+name = "relay-rs"
+version = "0.1.0-alpha"
+edition = "2024"
+rust-version = "1.85"
+authors = ["nashiuso"]
+license = "MIT"
+description = "A small, modular Rust toolkit for connecting AI providers through one clear API."
+repository = "https://github.com/nashiuso/relay"
+homepage = "https://github.com/nashiuso/relay"
+readme = "README.md"
+keywords = ["llm", "ai", "providers", "openai-compatible", "ollama"]
+categories = ["api-bindings", "command-line-utilities"]
+exclude = ["/.github", "/assets", "/docs"]
+
+[lib]
+name = "relay_rs"
+path = "src/lib.rs"
+
+[[bin]]
+name = "relay"
+path = "src/main.rs"
+
+[features]
+default = []
+# Opt-in OpenAI-compatible HTTP server. Keeps the default install free of
+# server-only code paths.
+server = []
+
+[profile.release]
+opt-level = 3
+lto = "thin"
+codegen-units = 1
+strip = true

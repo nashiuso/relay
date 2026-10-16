@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="Relay — one interface. your models.">
+  <title>Relay — one interface. your models.</title>
+  <style>
+    .relay-motion { animation: relay-dash 2.4s linear infinite; }
+    .relay-motion-reverse { animation: relay-dash-reverse 2.4s linear infinite; }
+    @keyframes relay-dash { from { stroke-dashoffset: 96; } to { stroke-dashoffset: 0; } }
+    @keyframes relay-dash-reverse { from { stroke-dashoffset: 0; } to { stroke-dashoffset: 96; } }
+    @media (prefers-reduced-motion: reduce) {
+      .relay-motion, .relay-motion-reverse { animation: none; stroke-dashoffset: 0; }
+    }
+  </style>
+  <rect x="0" y="0" width="1200" height="300" fill="#020204"/>
+  <g fill="none" stroke="#49A1A8" stroke-opacity="0.16" stroke-width="2">
+    <circle cx="1040" cy="150" r="108"/>
+    <circle cx="1040" cy="150" r="72"/>
+  </g>
+  <g transform="translate(150 150) scale(2.4)" fill="none" stroke="#49A1A8" stroke-width="4.2" stroke-linecap="round">
+    <path class="relay-motion" d="M 11.57 13.79 A 18 18 0 0 1 11.57 -13.79" stroke-dasharray="12 20"/>
+    <path class="relay-motion-reverse" d="M -11.57 -13.79 A 18 18 0 0 0 -11.57 13.79" stroke-dasharray="12 20"/>
+    <circle cx="0" cy="0" r="5.4" fill="#49A1A8" stroke="none"/>
+  </g>
+  <text x="240" y="150" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="92" font-weight="600" letter-spacing="1" fill="#D9DBDF">relay</text>
+  <text x="246" y="204" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="27" letter-spacing="1.2" fill="#D9DBDF" fill-opacity="0.78">One interface. Your models.</text>
+  <rect x="246" y="228" width="132" height="4" rx="2" fill="#49A1A8"/>
+</svg>

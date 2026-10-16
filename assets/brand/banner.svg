@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="Relay — one interface. your models.">
+  <title>Relay — one interface. your models.</title>
+  <rect x="0" y="0" width="1200" height="300" fill="#020204"/>
+  <g fill="none" stroke="#49A1A8" stroke-opacity="0.16" stroke-width="2">
+    <circle cx="1040" cy="150" r="108"/>
+    <circle cx="1040" cy="150" r="72"/>
+  </g>
+  <g transform="translate(150 150) scale(2.4)">
+    <path d="M 11.57 13.79 A 18 18 0 0 1 11.57 -13.79" fill="none" stroke="#49A1A8" stroke-width="4.2" stroke-linecap="round"/>
+    <path d="M -11.57 -13.79 A 18 18 0 0 0 -11.57 13.79" fill="none" stroke="#49A1A8" stroke-width="4.2" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="5.4" fill="#49A1A8"/>
+  </g>
+  <text x="240" y="150" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="92" font-weight="600" letter-spacing="1" fill="#D9DBDF">relay</text>
+  <text x="246" y="204" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="27" letter-spacing="1.2" fill="#D9DBDF" fill-opacity="0.78">One interface. Your models.</text>
+  <rect x="246" y="228" width="132" height="4" rx="2" fill="#49A1A8"/>
+</svg>

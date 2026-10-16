@@ -1,0 +1,76 @@
+# Relay configuration — example
+#
+# Copy this file to ~/.config/relay/config.toml (or pass it with
+# `relay --config <path>`) and adjust it to your setup.
+#
+# Values are read from this file, from RELAY_* environment variables and from
+# command line options, in that order of precedence:
+#
+#     command line  >  environment  >  this file  >  built-in defaults
+#
+# Keep secrets out of this file: use `api_key_env` and the environment
+# variable it names.
+
+# The model used when a request does not name one.
+# The format is `provider/model`.
+default_model = "ollama/llama3.2"
+
+# Request timeout in seconds. Applies to every provider that does not set
+# its own timeout.
+timeout_secs = 120
+
+# Number of retries for transient failures (connection errors, timeouts, 429
+# and 5xx answers). Permanent failures (401, 403, 404, 400) are never
+# retried. The maximum is 10.
+max_retries = 2
+
+# Milliseconds between two retries. The wait grows with every attempt.
+retry_backoff_ms = 250
+
+# Fallback is off by default. When it is enabled, a request that fails with a
+# transient error is retried on the models listed here, in this order.
+[fallback]
+enabled = false
+models = []
+
+# A local Ollama server. No credentials, no traffic leaves the machine.
+[providers.ollama]
+type = "ollama"
+base_url = "http://127.0.0.1:11434"
+model = "llama3.2"
+# timeout_secs = 300
+
+# An OpenAI compatible endpoint. The key is read from the environment, so it
+# never ends up in a file that you might share.
+[providers.openai]
+type = "openai-compatible"
+base_url = "https://api.openai.com/v1"
+api_key_env = "OPENAI_API_KEY"
+model = "gpt-4o-mini"
+# timeout_secs = 60
+
+# Any other OpenAI compatible service.
+# [providers.local]
+# type = "openai-compatible"
+# base_url = "https://my-gateway.example.com/v1"
+# api_key_env = "MY_GATEWAY_KEY"
+# model = "some-model"
+#
+# Extra headers are sent with every request of that provider. Never put an
+# API key here: it would be readable in the file and in a crash dump.
+# [providers.local.headers]
+# "X-Tenant" = "team-a"
+
+# The optional OpenAI compatible server (`relay serve`, feature `server`).
+[server]
+# The server binds to the loopback interface by default. Binding to another
+# interface needs `allow_remote = true` and an API key.
+host = "127.0.0.1"
+port = 8080
+# api_key_env = "RELAY_SERVER_KEY"
+allow_remote = false
+# The maximum size of a request body in bytes.
+max_body_bytes = 1048576
+# Origins that may call the server from a browser. Empty means that no
+# cross origin request is answered.
+# cors_allow_origins = ["https://my-app.example.com"]
